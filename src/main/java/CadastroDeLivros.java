@@ -1,41 +1,43 @@
 public class CadastroDeLivros {
     public static void main(String[] args) {
 
-        Livro livro = new Livro();
-        livro.nome = "Java 8";
-        livro.descricao = "Novos recursos da linguagem";
-        livro.valor = 59.90;
-        livro.isbn = "979-987-6543-3-2";
 
         Autor autor = new Autor();
-        autor.nome = "Rodrigo Turin";
-        autor.email = "rodrigo.turini@gmail.com";
-        autor.cpf = "300100200-32";
+        autor.setNome("Rodrigo Turin");
+        autor.setEmail("rodrigo.turini@gmail.com");
+        autor.setCpf("300100200-32");
 
-        livro.autor = autor;
+        Livro livro = new Livro(autor);
+        livro.setNome("Java 8"); ;
+        livro.setDescricao("Novos recursos da linguagem");
+        livro.setValor(59.90);
+        livro.setIsbn("979-987-6543-3-2");
         livro.mostrarDetalhes();
 
-        Livro livro2 = new Livro();
-        livro2.nome = "Logica de programação";
-        livro2.descricao = "Crie seus primeiros programas";
-        livro2.valor = 39.60;
-        livro2.isbn = " 123-23-456-45-0";
+        Autor autor2 = new Autor();
+        autor2.setNome("Paulo Siqueira");
+        autor2.setEmail("siqueira.paulo@gmail.com");
+        autor2.setCpf("123.432.456-32");
 
-//        Autor autor2 = new Autor();
-//        autor2.nome = "Paulo Siqueira";
-//        autor2.email = "siqueira.paulo@gmail.com";
-//        autor2.cpf = "123.432.456-32";
-//
-//        livro2.autor = autor2;
+        Livro livro2 = new Livro(autor2);
+        livro2.setNome("Logica de programação");
+        livro2.setDescricao("Crie seus primeiros programas");
+        livro2.setValor(39.60);
+        livro2.setIsbn("123-23-456-45-0");
         livro2.mostrarDetalhes();
 
-        System.out.println("Valor original R$ " + livro.valor);
-        System.out.println("Valor original R$ " + livro2.valor);
+        System.out.println("Valor original R$ " + livro.getValor());
+        System.out.println("Valor original R$ " + livro2.getValor());
 
         livro.aplicarDescontoDe(0.1);
 
-        System.out.println("R$ " + livro.valor);
+        System.out.println("R$ " + livro.getValor());
 
+
+        EBook eBook = new EBook();
+        eBook.setNome("Java 8 Pratico");
+
+        System.out.println(eBook.getNome());
 
     }
 
