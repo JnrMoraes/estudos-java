@@ -1,27 +1,20 @@
-public class EBook extends Livro{
+public class EBook extends Livro implements Promocional{
 
     private String waterMark;
 
-    public EBook(Autor autor) {
+    public EBook(Autor autor ) {
         super(autor);
-    }
-
-    public EBook() {
-
-    }
-
-    public void adiciona(Livro livro){
-        EBook eBook = (EBook) livro;
-        eBook.getWaterMark();
-        System.out.println("Adiconando: " + livro);
     }
 
     @Override
     public boolean aplicarDescontoDe(double porcentagem){
-        if(porcentagem > 0.15 ){
+        if(porcentagem > 0.15){
             return false;
         }
-        return super.aplicarDescontoDe(porcentagem);
+        System.out.println("Aplicado desconto");
+        double desconto =  getValor() * porcentagem;
+        setValor(getValor() - desconto);
+        return true;
     }
 
     public String getWaterMark() {

@@ -1,26 +1,41 @@
 public class RegrasDeDesconto {
+
     public static void main(String[] args) {
 
         Autor autor = new Autor();
-        autor.setNome("Rodrigo Turini");
+        autor.setNome("Autor");
 
-        Livro livro = new Livro();
+        Livro livro = new LivroFisico(autor);
         livro.setValor(59.90);
 
-        if(!livro.aplicarDescontoDe(0.3)){
-            System.out.println("Desconto não pode ser maior que 30%");
+        System.out.println("Valor Atual: " + livro.getValor());
+
+        if (!((LivroFisico) livro).aplicarDescontoDe(0.1)) {
+            System.out.println("Desconto em livro Fisico não pode ser maior que 30%");
         } else {
-            System.out.println("Valor com desconto: " + livro.getValor());
+            System.out.println("Valor com desconto em livro Fisico: " + livro.getValor());
         }
 
-        EBook eBook = new EBook(autor);
-        eBook.setValor(29.90);
+        Livro livroEbook = new EBook(autor);
+        livroEbook.setValor(29.90);
 
-        if(!eBook.aplicarDescontoDe(0.15)){
-            System.out.println("Desconto não pode ser maior que 15%");
+        System.out.println("Valor Atual Ebook: " + livroEbook.getValor());
+
+
+        if (!((EBook) livroEbook).aplicarDescontoDe(0.20)) {
+            System.out.println("Desconto em Ebook não pode ser maior que 30%");
         } else {
-            System.out.println("Valor com desconto: " + eBook.getValor());
+            System.out.println("Valor com desconto em Ebook: " + livroEbook.getValor());
+
+        }
+
+        Livro miniLivro = new MiniLivro(autor);
+        miniLivro.setValor(19.90);
+
+        System.out.println("Valor atual do Minilivro: " + miniLivro.getValor());
+
+        if(((MiniLivro) miniLivro).aplicarDescontoDe(0.15)){
+            System.out.println("Não há desconto em Minilivros");
         }
     }
-
 }

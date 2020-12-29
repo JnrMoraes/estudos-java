@@ -1,15 +1,18 @@
 public class Autor {
-    String nome;
-    String email;
-    String cpf;
+    private String nome;
+    private String email;
+    private String cpf;
 
-    void mostrarDetalles(){
-
-        System.out.println("Nome: " + nome);
-        System.out.println("Email: " + email);
-        System.out.println("Cpf: " + cpf);
-        System.out.println("---------------");
+    public Autor() {
     }
+
+    public void mostrarDetalhes(){
+
+    System.out.println("Nome Autor: " + getNome());
+    System.out.println("Email Autor: " + getEmail());
+    System.out.println("CPF Autor: " + getCpf());
+
+}
 
     public String getNome() {
         return nome;
@@ -34,5 +37,4 @@ public class Autor {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-
 }

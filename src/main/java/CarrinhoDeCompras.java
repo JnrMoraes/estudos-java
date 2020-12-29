@@ -1,16 +1,15 @@
-public class CarrinhoDeCompras {
+public class CarrinhoDeCompras extends Livro{
 
     private double total;
 
-    public double getTotal() {
-        return total;
+    public void adiciona(Produto produto){
+        System.out.println("Adicinando: " + produto.toString());
+
+        total += produto.getValor();
     }
 
-    public void adiciona(Livro livro){
-      System.out.println("Adiconando: " + livro);
-      livro.aplicarDescontoDe(0.05);
-      total += livro.getValor();
-  }
-
+    public double getTotal(){
+        return total;
+    }
 
 }

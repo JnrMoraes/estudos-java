@@ -4,31 +4,41 @@ import java.util.Locale;
 import java.util.Random;
 
 public class CalculadoraDeEstoque {
+
     public static void main(String[] args) {
+
+        final double valorLivro = 29.90;
+
+        int livroJava = 60;
+        double livroTDD = 59.90;
+
+//        double soma = livroJava + livroTDD;
         double soma = 0;
+
         int contador = 0;
 
-        Random rand = new Random();
-        int upperbound = 100;
-        double variante = rand.nextInt(upperbound);
+        Random random = new Random();
+        int variante = random.nextInt(100);
 
-        while (contador < variante) {
-            double valorDoLivro = 59.90;
-            soma = soma + valorDoLivro;
+        while (contador < variante){
+            soma = soma + valorLivro;
             contador++;
-
-//            DecimalFormat f = new DecimalFormat("#,##0.00", new DecimalFormatSymbols(new Locale("pt", "BR")));
-
-//            System.out.println(" O total em estoque é: " + f.format(soma));
-
-            if (soma < rand.nextInt()) {
-                System.out.println("seu estoque esta baixo!, quantidade de livros: " + variante);
-            } else if (soma >= 2000) {
-                System.out.println("Seu estoque está muito alto!, quantidade de livros: " + variante);
-            } else {
-                System.out.println("Seu estoque está bom!, quantidade de livros: " + variante);
-            }
-
         }
+
+        DecimalFormat f = new DecimalFormat("#,##0.00", new DecimalFormatSymbols(new Locale("pt", "BR")));
+        System.out.println("Quantidade contada: "+contador);
+        System.out.println("Valor total R$: "+ f.format(soma));
+
+        if (soma < 1000) {
+            System.out.println("Seu estoque esta baixo !");
+
+        } else if( soma >= 2000){
+            System.out.println("Seu estoque esta alto");
+
+        } else {
+            System.out.println("Se estoque está bom !");
+        }
+
     }
 }
+

@@ -1,50 +1,42 @@
-public class Livro {
-
+public abstract class Livro implements Produto {
 
     private String nome;
     private String descricao;
     private double valor;
     private String isbn;
-    private Autor autor;
     private boolean impresso;
+    private Autor autor;
 
     public Livro(Autor autor) {
-        this();
-        this.impresso = true;
+        super();
+        this.isbn = "00-000-00000-00";
+        this.impresso = true; // para o livro estar sempre impresso
         this.autor = autor;
     }
 
+    public Livro(String isbn) {
+        this.isbn = "00-000-00000-00";
+    }
+
     public Livro() {
-        this.isbn = "000-00-00000-00-0";
-
-    }
-
-
-    void mostrarDetalhes() {
-
-        System.out.println("-- Detalhes do livro --");
-        System.out.println("Nome: " +nome);
-        System.out.println("Descrição: " +descricao);
-        System.out.println("Valor: " +valor);
-        System.out.println("ISBN: " +isbn);
-        System.out.println("\n");
-        if(this.temAutor()){
-            autor.mostrarDetalles();
-        }
-
-    }
-
-    public boolean aplicarDescontoDe(double porcentagem){
-        if(porcentagem > 0.3 ){
-            return false;
-        }
-        this.valor -= this.valor * porcentagem;
-        return true;
     }
 
     boolean temAutor(){
         return this.autor != null;
+}
+
+    public void mostrarDetalhes(){
+        System.out.println("Nome livro: " + getNome());
+        System.out.println("Descrição livro: " + getDescricao());
+        System.out.println("Valor livro: " + getValor());
+        System.out.println("ISBN livro: " + getIsbn());
+
+    if(this.temAutor()){
+        autor.mostrarDetalhes(); // faz acesso ao objeto Autor
     }
+        System.out.println("-- -- -- -- -- -- -- --");
+}
+
 
     public String getNome() {
         return nome;
@@ -78,6 +70,14 @@ public class Livro {
         this.isbn = isbn;
     }
 
+    public boolean isImpresso() {
+        return impresso;
+    }
+
+    public void setImpresso(boolean impresso) {
+        this.impresso = impresso;
+    }
+
     public Autor getAutor() {
         return autor;
     }
@@ -85,5 +85,4 @@ public class Livro {
     public void setAutor(Autor autor) {
         this.autor = autor;
     }
-
 }
