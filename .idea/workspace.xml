@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5015357-4043-44bf-a929-eff153b6ea74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Livro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Autor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CadastroDeLivros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculadoraDeEstoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculadoraDeEstoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Livro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LivroFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegistroDeVendas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegrasDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegrasDeDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Autor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Autor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CadastroDeLivros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CalculadoraDeEstoque.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CalculadoraDeEstoque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Livro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Livro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Livro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mLCc6cKQJkdwsSYctoiKDhSEb4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5015357-4043-44bf-a929-eff153b6ea74" name="Default Changelist" comment="" />
+      <created>1609263560042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609263560042</updated>
+    </task>
+    <task id="LOCAL-00001" summary="fixed">
+      <created>1609263859189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609263859189</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+  </component>
+</project>
