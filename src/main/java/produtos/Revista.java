@@ -1,4 +1,8 @@
-public class Revista implements Produto, Promocional{
+package produtos;
+
+import livraria.Editora;
+
+public class Revista implements Produto, Promocional {
     private String nome;
     private String descricao;
     private double valor;
@@ -44,5 +48,16 @@ public class Revista implements Produto, Promocional{
 
     public void setEditora(Editora editora) {
         this.editora = editora;
+    }
+
+    @Override
+    public int compareTo(Produto outroProduto) {
+        if(this.getValor() < outroProduto.getValor()){
+            return -1;
+        }
+        if(this.getValor() > outroProduto.getValor()){
+            return 1;
+        }
+        return 0;
     }
 }

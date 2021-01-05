@@ -1,4 +1,8 @@
-public class EBook extends Livro implements Promocional{
+package produtos;
+
+import livraria.Autor;
+
+public class EBook extends Livro implements Promocional {
 
     private String waterMark;
 
@@ -23,5 +27,16 @@ public class EBook extends Livro implements Promocional{
 
     public void setWaterMark(String waterMark) {
         this.waterMark = waterMark;
+    }
+
+    @Override
+    public int compareTo(Produto outroProduto) {
+        if(this.getValor() < outroProduto.getValor()){
+            return -1;
+        }
+        if(this.getValor() > outroProduto.getValor()){
+            return 1;
+        }
+        return 0;
     }
 }

@@ -1,3 +1,7 @@
+package produtos;
+
+import exception.AutorNuloException;
+import livraria.Autor;
 public abstract class Livro implements Produto {
 
     private String nome;
@@ -8,15 +12,18 @@ public abstract class Livro implements Produto {
     private Autor autor;
 
     public Livro(Autor autor) {
-        super();
+
         this.isbn = "00-000-00000-00";
         this.impresso = true; // para o livro estar sempre impresso
+
+       if (autor == null){
+           throw new AutorNuloException("O autor não pode estar nulo");
+       }
+
         this.autor = autor;
     }
 
-    public Livro(String isbn) {
-        this.isbn = "00-000-00000-00";
-    }
+
 
     public Livro() {
     }
@@ -32,7 +39,7 @@ public abstract class Livro implements Produto {
         System.out.println("ISBN livro: " + getIsbn());
 
     if(this.temAutor()){
-        autor.mostrarDetalhes(); // faz acesso ao objeto Autor
+        autor.mostrarDetalhes(); // faz acesso ao objeto livraria.Autor
     }
         System.out.println("-- -- -- -- -- -- -- --");
 }
@@ -84,5 +91,20 @@ public abstract class Livro implements Produto {
 
     public void setAutor(Autor autor) {
         this.autor = autor;
+    }
+
+    @Override
+    public String toString() {
+        return  nome;
+    }
+
+    public int comparableTo(Produto outroProduto){
+        if(this.getValor() < outroProduto.getValor()){
+            return -1;
+        }
+        if(this.getValor() > outroProduto.getValor()){
+            return 1;
+        }
+        return 0;
     }
 }

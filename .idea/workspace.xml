@@ -1,46 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d5015357-4043-44bf-a929-eff153b6ea74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Livro.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Autor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Autor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CadastroDeLivros.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CalculadoraDeEstoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculadoraDeEstoque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarrinhoDeCompras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Livro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LivroFisico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegistroDeVendas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegrasDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegrasDeDesconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Autor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Autor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CadastroDeLivros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CalculadoraDeEstoque.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CalculadoraDeEstoque.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Livro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Livro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Livro.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/AutorNuloException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/produtos/ComparadorPorNome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/produtos/GerenciadorDeCupons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/produtos/Promocional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teste/ConsultaDeCupons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teste/NovidadesJava8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teste/OrdenandoComJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teste/TestandoPerformance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teste/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/livraria/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CadastroDeLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teste/CadastroDeLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculadoraDeEstoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teste/CalculadoraDeEstoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produtos/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produtos/EBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Editora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/livraria/Editora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produtos/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produtos/LivroFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MiniLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produtos/MiniLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produtos/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Promocional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegistroDeVendas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teste/RegistroDeVendas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegrasDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teste/RegrasDeDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Revista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produtos/Revista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Autor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CalculadoraDeEstoque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Livro.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mLCc6cKQJkdwsSYctoiKDhSEb4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +85,77 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager" selected="Application.NovidadesJava8">
+    <configuration name="ConsultaDeCupons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.ConsultaDeCupons" />
+      <module name="estudos-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NovidadesJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.NovidadesJava8" />
+      <module name="estudos-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdenandoComJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.OrdenandoComJava" />
+      <module name="estudos-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistroDeVendas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.RegistroDeVendas" />
+      <module name="estudos-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestandoPerformance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste.TestandoPerformance" />
+      <module name="estudos-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NovidadesJava8" />
+        <item itemvalue="Application.ConsultaDeCupons" />
+        <item itemvalue="Application.TestandoPerformance" />
+        <item itemvalue="Application.OrdenandoComJava" />
+        <item itemvalue="Application.RegistroDeVendas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,9 +187,59 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed" />
     <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-370" y="-917" key="#com.intellij.ide.util.MemberChooser" timestamp="1609848014609">
+      <screen x="-896" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-370" y="-917" key="#com.intellij.ide.util.MemberChooser/-896.-1080.1920.1080/0.0.1243.800@-896.-1080.1920.1080" timestamp="1609767544842" />
+    <state x="-370" y="-917" key="#com.intellij.ide.util.MemberChooser/-896.-1080.1920.1080/0.0.1280.800@-896.-1080.1920.1080" timestamp="1609848014609" />
+    <state x="-381" y="-623" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609772168770">
+      <screen x="-896" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-381" y="-623" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-896.-1080.1920.1080/0.0.1280.800@-896.-1080.1920.1080" timestamp="1609772168770" />
+    <state width="1876" height="303" key="GridCell.Tab.0.bottom" timestamp="1609849306005">
+      <screen x="-896" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1199" height="197" key="GridCell.Tab.0.bottom/-896.-1080.1920.1080/0.0.1243.800@-896.-1080.1920.1080" timestamp="1609767644657" />
+    <state width="1876" height="303" key="GridCell.Tab.0.bottom/-896.-1080.1920.1080/0.0.1280.800@-896.-1080.1920.1080" timestamp="1609849306005" />
+    <state width="1876" height="303" key="GridCell.Tab.0.center" timestamp="1609849306003">
+      <screen x="-896" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1199" height="197" key="GridCell.Tab.0.center/-896.-1080.1920.1080/0.0.1243.800@-896.-1080.1920.1080" timestamp="1609767644650" />
+    <state width="1876" height="303" key="GridCell.Tab.0.center/-896.-1080.1920.1080/0.0.1280.800@-896.-1080.1920.1080" timestamp="1609849306003" />
+    <state width="1876" height="303" key="GridCell.Tab.0.left" timestamp="1609849306002">
+      <screen x="-896" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1199" height="197" key="GridCell.Tab.0.left/-896.-1080.1920.1080/0.0.1243.800@-896.-1080.1920.1080" timestamp="1609767644648" />
+    <state width="1876" height="303" key="GridCell.Tab.0.left/-896.-1080.1920.1080/0.0.1280.800@-896.-1080.1920.1080" timestamp="1609849306002" />
+    <state width="1876" height="303" key="GridCell.Tab.0.right" timestamp="1609849306004">
+      <screen x="-896" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1199" height="197" key="GridCell.Tab.0.right/-896.-1080.1920.1080/0.0.1243.800@-896.-1080.1920.1080" timestamp="1609767644655" />
+    <state width="1876" height="303" key="GridCell.Tab.0.right/-896.-1080.1920.1080/0.0.1280.800@-896.-1080.1920.1080" timestamp="1609849306004" />
+    <state x="-423" y="-797" width="973" height="639" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609803777837">
+      <screen x="-896" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-423" y="-797" width="973" height="639" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-896.-1080.1920.1080/0.0.1280.800@-896.-1080.1920.1080" timestamp="1609803777837" />
+    <state x="-271" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1609806923572">
+      <screen x="-896" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-271" y="-839" width="670" height="676" key="search.everywhere.popup/-896.-1080.1920.1080/0.0.1280.800@-896.-1080.1920.1080" timestamp="1609806923572" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" log-message="true" log-stack="true" suspend="THREAD" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

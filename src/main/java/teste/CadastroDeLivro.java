@@ -1,3 +1,11 @@
+package teste;
+
+import livraria.Autor;
+import produtos.EBook;
+import produtos.Livro;
+import produtos.LivroFisico;
+import produtos.MiniLivro;
+
 public class CadastroDeLivro {
 
     public static void main(String[] args) {

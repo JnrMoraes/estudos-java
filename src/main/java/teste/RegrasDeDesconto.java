@@ -1,9 +1,17 @@
+package teste;
+
+import livraria.Autor;
+import produtos.EBook;
+import produtos.Livro;
+import produtos.LivroFisico;
+import produtos.MiniLivro;
+
 public class RegrasDeDesconto {
 
     public static void main(String[] args) {
 
         Autor autor = new Autor();
-        autor.setNome("Autor");
+        autor.setNome("livraria.Autor");
 
         Livro livro = new LivroFisico(autor);
         livro.setValor(59.90);

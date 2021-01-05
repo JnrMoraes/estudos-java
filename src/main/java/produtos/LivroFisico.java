@@ -1,3 +1,7 @@
+package produtos;
+
+import livraria.Autor;
+
 public class LivroFisico extends Livro implements Promocional {
 
     public LivroFisico(Autor autor) {
@@ -22,7 +26,13 @@ public class LivroFisico extends Livro implements Promocional {
     }
 
     @Override
-    public String toString() {
-        return "LivroFisico{bla}";
+    public int compareTo(Produto outroProduto) {
+        if(this.getValor() < outroProduto.getValor()){
+            return -1;
+        }
+        if(this.getValor() > outroProduto.getValor()){
+            return 1;
+        }
+        return 0;
     }
 }
